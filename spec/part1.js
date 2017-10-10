@@ -1,5 +1,6 @@
 (function() {
   'use strict';
+//Sean Gurson & Becky Chan 
 
   var FILL_ME_IN = true;
 
