@@ -132,7 +132,8 @@
     
     var resultArr = [];
       for (var i = 0; i < collection.length; i++) {
-        resultArr.push(iterator(collection[i], i, collection));
+        var temp = iterator(collection[i], i, collection);
+        resultArr.push(temp);
       }
     
     return resultArr;
