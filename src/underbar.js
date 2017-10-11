@@ -48,7 +48,7 @@
       return array;
 
     } else {
-      return array[n]
+      return array[n];
 
     }
   };
@@ -65,7 +65,7 @@
       }
     } else if (typeof collection === 'object') {
        for(var key in collection) {
-          iterator(collection[key], key, collection)
+          iterator(collection[key], key, collection);
       }   
     }
   };
